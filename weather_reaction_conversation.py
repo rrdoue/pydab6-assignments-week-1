@@ -1,4 +1,12 @@
-#! /usr/bin/python3
+#! /usr/bin/env python3
+
+# Note: To run the most easily from a command line, use the syntax python3 <file_name>
+# Or ensure the file is executable, then include a `./` before the file name.  
+# For example, 
+# chmod +x <file_name>
+# or chmod u+x <file_name>
+# Then,
+# ./<file_name>
 
 # Section 1, Exercise: weather reaction conversation
 
