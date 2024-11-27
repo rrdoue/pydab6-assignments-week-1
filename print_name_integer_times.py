@@ -6,7 +6,7 @@
 
 integer_response = input('Please enter a number, say, from 3 to 7: ')
 
-name = input('Please enter your name: ')
+name = input('Please enter your name: ').strip()
 print(f"\nWe're printing your name {integer_response} times:\n")
 
 for one_number in range(int(integer_response)):
