@@ -8,8 +8,13 @@
 #   the next line with three letters, until you've printed their entire name. 
 # This has been called a name triangle.
 
-user_name = input('Please enter your name: ')
+user_name = input('Please enter your name: ').strip()
 
-for index, one_letter in enumerate(user_name):
-    print(user_name[0:(index + 1)])
+# Reuven used a range(len(user_name)) instead of an enumerate. 
+# He also left off the initial 0, just using [:index+1]
+# for index, one_letter in enumerate(user_name):
+#     print(user_name[:index+1])
+
+for idx in range(len(user_name)):
+    print(user_name[:idx+1])
 
