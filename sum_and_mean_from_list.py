@@ -8,10 +8,11 @@ debug = None
 
 total = 0
 average = 0
-number_list = []
+number_list = [ ] # Reuven used a space inside the square brackets for an 
+                  #   empty list
 
 while True:
-    value = input('Please enter a number (or leave blank to end input): ').strip()
+    value = input('Please enter a whole number (or leave blank to end input): ').strip()
     if value:
         if value.isnumeric():
             number_list.append(int(value))
