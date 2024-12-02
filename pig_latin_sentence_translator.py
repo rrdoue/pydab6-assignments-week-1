@@ -13,13 +13,12 @@
 debug = None # for future debugging
 
 word_list = [ ]
-new_sentence = ''
 pig_latin_sentence = ''
 
 sentence = input('Please enter a sentence in English without capital letters or puncuation: ').strip()
 
-word_list = sentence.split()
 english_sentence = sentence
+word_list = sentence.split()
 
 for index, one_word in enumerate(word_list):
     if one_word[0] in 'aeiou':
