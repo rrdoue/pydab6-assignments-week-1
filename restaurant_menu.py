@@ -31,8 +31,8 @@ while True:
 
     if not item:
         break
-    if item in menu:
-        print(f"{item} is available.")
+    elif item in menu:
+        print(f"{item} is available, the price is {menu[item]}.")
         order.append(item)
         total += menu[item]
         if debug:
