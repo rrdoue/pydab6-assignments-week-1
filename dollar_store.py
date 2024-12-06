@@ -33,4 +33,3 @@ while True:
         continue
 
 print(f"\nThanks for your purchase.  Your total is {order_total} dollar(s), we appreciate your business.")
-
