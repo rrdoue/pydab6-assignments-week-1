@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 # Section 2, Exercise 2b: From following the solution.
 # This is a general reference standard for opening files in python, using a "with open" format.  The
 #   function also shows a general process for reading configuration files, with key : value pairs.  Finally,
