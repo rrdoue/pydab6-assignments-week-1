@@ -1,13 +1,15 @@
-# Python
+# Python (Compiled Python and other files)
 *.pyc
-*~
 __pycache__
 notebooks
 
-# Env
-.env
-myvenv/
-venv/
+# Env files with sensitive information
+.env*
+
+# Python virtual environment-specific directories
+.venv*
+venv*
+*venv
 
 # Database
 db.sqlite3
@@ -17,9 +19,24 @@ db.sqlite3
 
 # macOS
 ._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
 .DS_Store
 .fseventsd
+.LSOverride
 .Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+*.icloud
+Desktop.ini
+Network Trash Folder
+Temporary Items
+Thumbs.db
 
 # Windows
 Thumbs.db*
